@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-roboto: "Roboto Slab", serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-roboto);
+  background-color: #212426;
+
+}
+
+.Home {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./images/background.png);
+  
+  width: fit-content;
+ 
+  
+}
+
+.select {
+  margin-top: 6em;
+  margin-left: 2rem;
+  
+}
+
+
+
+.your{
+  margin-left: 12rem;
+  margin-bottom: -1.5rem;
+}
+
+.your img {
+  width: 60%;
+  height:60%;
+}
+
+
+
+
+
+.Players{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top:3.5rem;
+    margin-right:-3rem;
+}
+
+.Ty{
+  margin-left: -3.5rem;
+}
+.Sai img{
+  width:90%;
+  height:90%;
+}
+
+.Chi{
+  margin-left:1rem;
+}
+
+.Chi img{
+  width:57%;
+  height:57%;
+}
+
+.Ty img{
+  width:68%;
+  height:70%;
+}
+
+
+.Sai:hover  {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.Chi:hover  {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.Ty:hover  {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.continue{
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.continue img{
+  width:90%;
+
+}
+
+.saiCon img{
+  width:70%;
+  margin-left: 3.5rem;
+  margin-top: 1.5rem;
+}
+
+
+.chiCon img{
+  width:70%;
+  margin-left: 3.5rem;
+  margin-top: 1.5rem;
+}
+
+
+.tyCon img{
+  width:70%;
+  margin-left: 3.5rem;
+  margin-top: 1.5rem;
+}
+
+
+
+.x img{
+  width:130%;
+}
+
+.check img{
+  width:130%;
+}
+
+.x{
+  margin-right: 2rem;
+}
+
+.x:hover  {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.check:hover  {
+  height: 100%;
+  opacity: 0.3;
+}
+
+
+.select{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  margin-top:3.5rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  
+}
+
+
+.ghoulDiff img{
+  width:95%;
+  margin-left: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+
+.orb:hover  {
+  height: 100%;
+  opacity: 0.3;
+}
+
+
+
+.ghoul:hover  {
+  height: 100%;
+  opacity: 0.3;
+}
+
+
+.king:hover  {
+  height: 100%;
+  opacity: 0.3;
+}
+
+
+.NoGhoul:hover  {
+  height: 100%;
+  opacity: 0.3;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .Home {
+    padding: 15rem 0rem;
+  }
+
+  .title {
+    
+    margin: -7rem 0 10rem;
+  }
+
+
+}
+
+
